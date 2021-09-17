@@ -1,6 +1,6 @@
 package digitalinovationone
 
 data class Banco(
-    val nome: String,
-    val numero: Int
-    )
+    val name:String,
+    val numero:Int
+)
