@@ -2,8 +2,8 @@ package digitalinovationone
 
 import java.math.BigDecimal
 
-class Funcionario (
-    override val name: String,
-    override val cpf: String,
-    val salario: BigDecimal
+abstract class Funcionario (
+    name: String,
+    cpf: String,
+    var salario: BigDecimal
 ) : Pessoa (name, cpf)
