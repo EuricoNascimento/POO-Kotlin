@@ -1,11 +1,9 @@
 package digitalinovationone
 
-import java.math.BigDecimal
-
 abstract class Funcionario (
     name: String,
     cpf: String,
-    var salario: BigDecimal
+    val salario: Double
 ) : Pessoa (name, cpf) {
-    protected abstract fun calculoAuxilio();
+    protected abstract fun calculoAuxilio(): Double
 }

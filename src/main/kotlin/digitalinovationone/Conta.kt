@@ -1,4 +1,7 @@
 package digitalinovationone
 
-class Conta {
-}
+class Conta (
+    val agencia: String,
+    val numero: String,
+    val saldo: Double
+)
